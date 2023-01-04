@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: io.realm:realm-gradle-plugin:10.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-gradle-plugin/10.9.0/b61b4f20b1cb0dc513faab58ebdde30bc526108c/realm-gradle-plugin-10.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-gradle-plugin/10.9.0/337d3bf27dd357c37609d056597a02b6034d823d/realm-gradle-plugin-10.9.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-gradle-plugin/10.9.0/5bf7122eb27d219f6265ff8acb6f5f631d4d24fe/realm-gradle-plugin-10.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

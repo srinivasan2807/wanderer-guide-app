@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.timehop.stickyheadersrecyclerview:library:0.4.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a2ad3103624366558d0d239de896fe87/transformed/jetified-library-0.4.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a2ad3103624366558d0d239de896fe87/transformed/jetified-library-0.4.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.timehop.stickyheadersrecyclerview/library/0.4.3/8a33099a8077ab47d3fe056f01a74c197723c2e2/library-0.4.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.timehop.stickyheadersrecyclerview/library/0.4.3/72ce7cc1b30e6f9688c31295315b62056abebd86/library-0.4.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "181349675745",
+    "project_id": "wanderer-7c7bf",
+    "storage_bucket": "wanderer-7c7bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181349675745:android:ce83fb862a3cebfa143da0",
+        "android_client_info": {
+          "package_name": "com.my.travel.wanderer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181349675745-cesc8ncj7kk57va6siuh4i6mp2mhj00d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.my.travel.wanderer",
+            "certificate_hash": "49b3c1476632305098be07758f9cff33f3a4dd0a"
+          }
+        },
+        {
+          "client_id": "181349675745-r2nsc7omqbblnvocg2des811m2uu9jhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGojl96zQUB9q3NWul5YJ97o5NEIsa7R8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181349675745-r2nsc7omqbblnvocg2des811m2uu9jhi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

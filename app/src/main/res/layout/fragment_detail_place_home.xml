@@ -1,0 +1,245 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.my.travel.wanderer.activity.detail.DetailTabsActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:id="@+id/llCategory1"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:id="@+id/tvCategoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:text="Category"
+                android:textColor="@color/colorGrey900"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tvViewAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_large"
+                android:text="View All"
+                android:textColor="@color/colorBlue500"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llCategory2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_below="@+id/llCategory1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:id="@+id/tvCategoryName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:text="Category"
+                android:textColor="@color/colorGrey900"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tvViewAll2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_large"
+                android:text="View All"
+                android:textColor="@color/colorBlue500"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llCategory2"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="Practical Infomation"
+            android:textColor="@color/colorGrey900"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/colorLine" />
+
+        <RelativeLayout
+            android:id="@+id/rlDetailGettingAround"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imvDetailGetttingAround"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="@dimen/margin_small"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/margin_small"
+                android:src="@drawable/icon_getting_around" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/imvDetailGetttingAround"
+                android:gravity="center_vertical"
+                android:text="Transport"
+                android:textColor="@color/colorGrey700"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/margin_small"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_arrow_right" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/colorLine" />
+
+        <RelativeLayout
+            android:id="@+id/rlPracticalEmergency"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imvPracticalEmergency"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="@dimen/margin_small"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/margin_small"
+                android:src="@drawable/icon_emergency" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/imvPracticalEmergency"
+                android:gravity="center_vertical"
+                android:text="Emergency"
+                android:textColor="@color/colorGrey700"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/margin_small"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_arrow_right" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/colorLine" />
+
+        <RelativeLayout
+            android:id="@+id/rlPracticalGetToKnow"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imvPracticalGetToKnow"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="@dimen/margin_small"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/margin_small"
+                android:src="@drawable/icon_info" />
+
+            <TextView
+                android:id="@+id/tvGetToKnown"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/imvPracticalGetToKnow"
+                android:gravity="center_vertical"
+                android:text="Get to know"
+                android:textColor="@color/colorGrey700"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/margin_small"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_arrow_right" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/colorLine" />
+
+        <ImageView
+            android:id="@+id/imvVisa"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:visibility="gone"
+            android:src="@drawable/visa_ads_small"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnMask"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@color/transparent"/>
+
+</RelativeLayout>
