@@ -49,7 +49,7 @@ public class IAPActivity extends AppCompatActivity {
 
     String base64EncodedPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuOL+MQDodwpeIueTR7KFb4X8TeXRyb/RiUsAGuKA2UB5NgcY0yOq3aMRMK5xh/KmpK+Y3sj+92bRSRRBkC/1qhaVJMxbVXEK7ifR+t5oEkG+9EJ0atr5dZ0XBmA7H8QzyINt6xC9BwWpvrOSEkxxYW6JiTXWmj6v6yz+l4++rUuwZy3aXVqzVHWxMPTCCkcguwiIcvd2EjnPcrUbUJjjl/tAhd0zyJJbCn3p8mWqgzNu8cAItjizAkKEfmlTvuAyuwoyotA4A/Jbj1UqZVb8ixm3+R+CB2uquZOwSGAH1SjMrzpe+T3CKW9bKOSeOB7yKohBAD8u8ImlWEUV5ZrWVQIDAQAB";
     String TAG = IAPActivity.class.getSimpleName();
-    String skuAllCity = "vn.leaestudio.trid.all_cities";
+    String skuAllCity = "com.my.travel.wanderer.all_cities";
 
     Context mContext;
 

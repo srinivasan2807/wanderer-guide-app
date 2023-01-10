@@ -14,9 +14,7 @@ import com.bpackingapp.vietnam.travel.R;
 // use this for load image from server
 //import com.facebook.drawee.view.SimpleDraweeView;
 
-/**
- * Created by phamngocthanh on 3/26/15.
- */
+
 public class SlidePageFragment extends Fragment {
     private static final String PIC_URL = "tintinurl";
 

@@ -7,9 +7,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * Created by phamngocthanh on 3/26/15.
- */
+
 public class SlidePagerAdapter extends FragmentStatePagerAdapter {
 //    private List<String> picList = new LinkedList<String>();
     private List<Integer> picList = new LinkedList<Integer>();

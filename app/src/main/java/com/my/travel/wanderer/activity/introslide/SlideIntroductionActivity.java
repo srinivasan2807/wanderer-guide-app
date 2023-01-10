@@ -64,9 +64,9 @@ public class SlideIntroductionActivity extends AppCompatActivity {
     private PageIndicator mPageIndicator;
 
     public static final Integer[] IMAGES_SLIDER = new Integer[]{
-            R.drawable.app_bg_1,
-            R.drawable.app_bg_2,
-            R.drawable.app_bg_3,
+            R.drawable.travel,
+            R.drawable.traveltwo,
+            R.drawable.travelthree,
     };
 
     boolean isAutoScroll = false;
@@ -290,12 +290,19 @@ public class SlideIntroductionActivity extends AppCompatActivity {
 
             @Override
             public void onPageSelected(int position) {
-                if (position%3 == 0) {
-                    tvAppDes.setText(R.string.msg_welcome_1);
-                } else if (position%3 == 1) {
-                    tvAppDes.setText(R.string.msg_welcome_2);
-                } else if (position%3 == 2) {
-                    tvAppDes.setText(R.string.msg_welcome_3);
+                switch (position % 3) {
+                    case 0:
+                        tvAppName.setText(R.string.intro_title_one);
+                        tvAppDes.setText(R.string.msg_welcome_1);
+                        break;
+                    case 1:
+                        tvAppName.setText(R.string.intro_title_two);
+                        tvAppDes.setText(R.string.msg_welcome_2);
+                        break;
+                    case 2:
+                        tvAppName.setText(R.string.intro_title_three);
+                        tvAppDes.setText(R.string.msg_welcome_3);
+                        break;
                 }
             }
 
