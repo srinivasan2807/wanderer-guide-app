@@ -31,12 +31,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/app_background" />
+                android:src="@drawable/traveltwo" />
 
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#af2196f3">
+                android:background="#A4FF6F00">
 
                 <LinearLayout
                     android:layout_width="match_parent"

@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bpackingapp.vietnam.travel.R;
+import com.bumptech.glide.Glide;
 
 // use this for load image from server
 //import com.facebook.drawee.view.SimpleDraweeView;

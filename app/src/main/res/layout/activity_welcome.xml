@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/img_default" />
+        android:src="@drawable/travel" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
@@ -52,8 +52,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_medium"
-            android:text="Bpacking"
-            android:textColor="@color/colorGrey50"
+            android:text="@string/intro_title_one"
+            android:textColor="@color/white"
             android:textSize="45dp" />
 
         <TextView

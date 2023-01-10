@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2196F1</color>
-    <color name="colorPrimaryDark">#2196F1</color>
-    <color name="colorAccent">#2196F1</color>
+    <color name="colorPrimary">#FF6F00</color>
+    <color name="colorPrimaryDark">#BF360C</color>
+    <color name="colorAccent">#F57F17</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
 
@@ -45,8 +45,8 @@
     <color name="colorGreen100">#c8e6c9</color>
     <color name="colorGreen50">#e8f5e9</color>
 
-    <color name="accent">#2196F1</color>
-    <color name="btn_pressed">#2196F1</color>
+    <color name="accent">#F57F17</color>
+    <color name="btn_pressed">@color/colorPrimary</color>
     <color name="btn_normal">#000000</color>
     <color name="icons">#FFFFFF</color>
     <color name="divider">#B6B6B6</color>

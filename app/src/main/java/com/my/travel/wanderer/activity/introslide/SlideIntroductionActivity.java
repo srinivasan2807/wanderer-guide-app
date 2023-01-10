@@ -131,7 +131,7 @@ public class SlideIntroductionActivity extends AppCompatActivity {
                 if (Utils.isInternetConnected(mContext) && !mSVProgressHUD.isShowing()) {
                     mSVProgressHUD.show();
                 } else {
-
+                    mSVProgressHUD.dismiss();
                 }
             }
             mHandler.postDelayed(new Runnable() {
@@ -156,7 +156,7 @@ public class SlideIntroductionActivity extends AppCompatActivity {
                 pager.setCurrentItem(pager.getCurrentItem()+1, true);
                 autoSlide();
             }
-        }, 2000);
+        }, 5000);
     }
     CallbackManager mCallbackManager;
     private FirebaseAuth mAuth;
