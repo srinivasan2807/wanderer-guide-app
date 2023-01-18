@@ -91,8 +91,8 @@ public class AskShareActivity extends AppCompatActivity {
         rlRecentTip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                viewRecentTip.setBackgroundColor(ColorUtils.getColor(mContext, R.color.colorBlue500));
-                tvRecentTip.setTextColor(ColorUtils.getColor(mContext, R.color.colorBlue500));
+                viewRecentTip.setBackgroundColor(ColorUtils.getColor(mContext, R.color.colorPrimary));
+                tvRecentTip.setTextColor(ColorUtils.getColor(mContext, R.color.colorPrimary));
 
                 viewTopTip.setBackgroundColor(ColorUtils.getColor(mContext, R.color.colorGrey300));
                 tvTopTip.setTextColor(ColorUtils.getColor(mContext, R.color.colorGrey600));
@@ -108,8 +108,8 @@ public class AskShareActivity extends AppCompatActivity {
         rlTopTip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                viewTopTip.setBackgroundColor(ColorUtils.getColor(mContext, R.color.colorBlue500));
-                tvTopTip.setTextColor(ColorUtils.getColor(mContext, R.color.colorBlue500));
+                viewTopTip.setBackgroundColor(ColorUtils.getColor(mContext, R.color.colorPrimary));
+                tvTopTip.setTextColor(ColorUtils.getColor(mContext, R.color.colorPrimary));
 
                 viewRecentTip.setBackgroundColor(ColorUtils.getColor(mContext, R.color.colorGrey300));
                 tvRecentTip.setTextColor(ColorUtils.getColor(mContext, R.color.colorGrey600));

@@ -28,13 +28,13 @@ public class AppConstants {
     public static final String KEY_INTENT_CATE_TYPE = "KEY_INTENT_CATE_TYPE";
     public static final String KEY_ACT_TITLE = "KEY_ACT_TITLE";
     public static String languageKey = "";
-    public static final String EMAIL_FEEDBACK = "hello@bpackingapp.com";
-    public static final String ABOUT_URL = "https://bpackingapp.com";
+    public static final String EMAIL_FEEDBACK = "wandererhelp@gmail.com";
+    public static final String ABOUT_URL = "";
 //    public static final String PRIVACY_URL = "https://bpacking.info/privacy.html";
-    public static final String PRIVACY_URL = "https://bpackingapp.com/privacy-policy/";
-    public static final String TERM_URL = "https://bpackingapp.com/terms/";
-    public static final String BOOKING_TICKET_URL = "https://www.baolau.com/widget/?source=301084";
-    public static final String BOOKING_VISA_URL = "https://booking.vietnam-visa.com/a/vaff570049";
+    public static final String PRIVACY_URL = "";
+    public static final String TERM_URL = "";
+    public static final String BOOKING_TICKET_URL = "https://www.booking.com/flights/index.en.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaGyIAQGYATG4AQjIAQzYAQHoAQH4AQKIAgGoAgO4Ar2Qn54GwAIB0gIkMzE0NDdlZGYtYTQzMy00ZDFiLWIxMzQtNDU1OGI4MzIxZmMw2AIF4AIB&sid=9b6e233581794301aeee5a6c38600c05&from=booking&";
+    public static final String BOOKING_VISA_URL = "https://visareservation.com/book-visa-appointment/";
     public static final String DICTIONARY_ABBR_DEFAIL = "DICTIONARY_ABBR_DEFAIL";
     public static final String TipUser = "-Kdjnh1gwHPXYRRTQuIg"; // Dev: “-KdjpEvGoGrCg0_ejxHc”
     public static final String TipAdmin = "-KdjniTnpvjaBGV3h9KR"; // Dev: “-KdjpEvGoGrCg0_ejxHc”

@@ -1,5 +1,7 @@
 package com.my.travel.wanderer.utils;
 
+import static com.my.travel.wanderer.data.AppConstants.BOOKING_TICKET_URL;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -10,7 +12,10 @@ import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
+import android.graphics.Canvas;
 import android.graphics.Point;
+import android.graphics.Rect;
+import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
@@ -25,6 +30,10 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
+import androidx.browser.customtabs.CustomTabColorSchemeParams;
+import androidx.browser.customtabs.CustomTabsIntent;
+import androidx.core.content.ContextCompat;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -33,7 +42,9 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Objects;
 
+import com.my.travel.wanderer.activity.bookticket.BookTicketActivity;
 import com.my.travel.wanderer.activity.detail.DialogCallPhone;
 import com.my.travel.wanderer.activity.weather.WeatherPresenter;
 import com.bpackingapp.vietnam.travel.R;
@@ -185,9 +196,17 @@ public class Utils {
 
     public static void openWebsite(Context mContext, String website) {
         try {
-            Intent i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse(website));
-            mContext.startActivity(i);
+            CustomTabsIntent.Builder intentBuilder = new CustomTabsIntent.Builder();
+            CustomTabColorSchemeParams defaultColors = new CustomTabColorSchemeParams.Builder()
+                    .setToolbarColor(getColor(mContext,R.color.colorPrimary))
+                    .setSecondaryToolbarColor(getColor(mContext,R.color.colorPrimary))
+                    .build();
+            intentBuilder.setDefaultColorSchemeParams(defaultColors);
+            intentBuilder.setShowTitle(false);
+            intentBuilder.setUrlBarHidingEnabled(false);
+            intentBuilder.setCloseButtonIcon(new BookTicketActivity().toBitmap(Objects.requireNonNull(ContextCompat.getDrawable(mContext, R.drawable.btn_back))));
+            intentBuilder.setStartAnimations(mContext, R.anim.svslide_in_top, R.anim.svslide_out_bottom);
+            intentBuilder.build().launchUrl(mContext, Uri.parse(website));
         } catch (Exception e) {
             e.printStackTrace();
         }

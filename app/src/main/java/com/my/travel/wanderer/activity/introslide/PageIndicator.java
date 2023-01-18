@@ -18,9 +18,6 @@ import java.lang.reflect.Field;
 import com.my.travel.wanderer.utils.LoggerFactory;
 import com.bpackingapp.vietnam.travel.R;
 
-/**
- * Created by phamngocthanh on 9/26/15.
- */
 public class PageIndicator extends LinearLayout implements ViewPager.OnPageChangeListener {
     public static final int INDICATOR_TYPE_CIRCLE = 0;
     public static final int INDICATOR_TYPE_FRACTION = 1;
